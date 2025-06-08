@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai Point - Menu</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-container">
+                <a href="index.html" class="logo">Chai Point</a>
+                <nav class="nav">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="menu.html" class="nav-link active">Menu</a>
+                    <a href="#" class="nav-link">About</a>
+                </nav>
+                <div class="cart-icon-container">
+                    <a href="cart.html" class="cart-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                            <line x1="3" y1="6" x2="21" y2="6"></line>
+                            <path d="M16 10a4 4 0 0 1-8 0"></path>
+                        </svg>
+                        <span class="cart-count">0</span>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <main class="menu-page">
+            <div class="section-header">
+                <h1>Our Menu</h1>
+                <p>Explore our delicious chai and snacks</p>
+            </div>
+
+            <div class="tabs">
+                <div class="tab-list">
+                    <button class="tab-button active" data-tab="chai">Chai</button>
+                    <button class="tab-button" data-tab="snacks">Snacks</button>
+                    <button class="tab-button" data-tab="combos">Combos</button>
+                </div>
+
+                <div class="tab-content active" id="chai-tab">
+                    <div class="items-grid" id="chai-items-container">
+                        <!-- Items will be added here by JavaScript -->
+                    </div>
+                </div>
+
+                <div class="tab-content" id="snacks-tab">
+                    <div class="items-grid" id="snack-items-container">
+                        <!-- Items will be added here by JavaScript -->
+                    </div>
+                </div>
+
+                <div class="tab-content" id="combos-tab">
+                    <div class="items-grid" id="combo-items-container">
+                        <!-- Items will be added here by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-section">
+                    <div class="footer-title">Chai Point</div>
+                    <div class="footer-text">Delicious chai and snacks delivered to your hostel</div>
+                </div>
+                <div class="footer-section">
+                    <div class="footer-title">Quick Links</div>
+                    <nav class="footer-nav">
+                        <a href="index.html">Home</a>
+                        <a href="menu.html">Menu</a>
+                        <a href="#">About</a>
+                    </nav>
+                </div>
+                <div class="footer-section">
+                    <div class="footer-title">Contact</div>
+                    <div class="footer-text">
+                        <div>Email: info@chaipoint.com</div>
+                        <div>Phone: +91 9876543210</div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div>© 2025 Chai Point. All rights reserved.</div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
